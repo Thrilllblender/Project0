@@ -1,0 +1,25 @@
+.google, .twitter, .facebook {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: cursive;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #32508e;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.google {
+  background-color: #dd4b39;
+}
+
+/*# sourceMappingURL=web1.css.map */

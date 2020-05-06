@@ -1,0 +1,27 @@
+%message{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.facebook{
+    @extend %message;
+    background-color: #32508e;
+}
+
+.twitter{
+    @extend %message;
+    background-color: #55acee;
+}
+
+.google{
+    @extend %message;
+    background-color: #dd4b39;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content{
+    background: url(1.png);
+    width: 70%;
+    height: 500px;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    box-shadow: 0 15px 15px rgba(0,0,0,5.6);
+}
+@keyframes slide {
+    25%{
+        background: url(2.png);
+    }
+    50%{
+        background: url(3.jpg);
+    }
+    75%{
+        background: url(4.png);
+    }
+    100%{
+        background: url(5.png);
+    }
+}
